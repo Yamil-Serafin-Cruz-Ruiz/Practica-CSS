@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+   background: rgb(34,193,195) ;
+   background: linear-gradient(160deg, rgb(30, 174, 177,1) 0%, rgba(253, 187, 45, 1) 100%);
+}
+
+.container-header{
+    padding: 1em;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#descripcion{
+    padding: 1em;
+    border: solid;
+    border-radius: 20px;
+}
+
+.container-header, img, h1, h2{
+    padding: 1em;
+}
+
+.container-section-pasatiempos{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1em;
+}
+
+.container-div-pasatiempos{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+}
+
+.pasatiempos, ol, li{
+    grid-column-start: 1;
+    text-align: center;
+    list-style-type: none;
+    padding: .3em;
+}
+
+.materias, ol, li{
+    grid-column-start: 2;
+    text-align: center;
+    list-style-type: none;
+    padding: .3em;
+}
+
+.container-section-horario{
+    text-align: center;
+}
+
+#horario{
+    border: solid ;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+a{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: rgb(126, 83, 4);
+}
+
+a:hover{
+    color: rgb(141, 0, 0);
+}
+
+table{
+    background-color: rgb(25, 119, 122);
+    border-style: groove;
+    
+}
+tr{
+    background-color: rgb(247, 181, 60);
+    border-top-color: #000;
+    border-bottom-color: #000;
+}
